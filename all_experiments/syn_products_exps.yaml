@@ -1,0 +1,95 @@
+##Graph sage at 10 homophily levels
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.0  --use-sage --split-seed 0
+
+python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.1  --use-sage --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.2  --use-sage --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.3  --use-sage --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.4  --use-sage --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.5  --use-sage --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.6  --use-sage --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.7  --use-sage --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.8  --use-sage --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.9  --use-sage --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 1.0  --use-sage --split-seed 0
+
+
+
+
+
+
+##Plain GCNs at 10 homophily levels
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.0   --split-seed 0
+
+python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.1   --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.2   --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.3   --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.4   --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.5   --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.6   --split-seed 0
+
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.7   --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.8   --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.9   --split-seed 0
+
+  - python3  ./main.py --enable-gcn --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 1.0   --split-seed 0
+
+
+
+
+
+
+##MLPs at 10 homophily levels
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.0   --split-seed 0
+
+python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.1   --split-seed 0
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.2   --split-seed 0
+
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.3   --split-seed 0
+
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.4   --split-seed 0
+
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.5   --split-seed 0
+
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.6   --split-seed 0
+
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.7   --split-seed 0
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.8   --split-seed 0
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 0.9   --split-seed 0
+
+  - python3  ./main.py --enable-mlp --datasets-path ./datasets --dropout 0.5 --dataset ogbn-products --iterations 2000 --hidden-feat-repr-dims 512 512 --use-synthetic-dataset --syn-respect-original-split --syn-homophily 1.0   --split-seed 0
+
+

@@ -1,0 +1,83 @@
+###GraphSage on the mixhop datasets for 10 homophily levels [0.0,0.9]
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.0-c10
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.1-c10
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.2-c10
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.3-c10
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.4-c10
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.5-c10
+
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.6-c10
+
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.7-c10
+
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.8-c10
+
+
+  - python3 ./main.py --enable-gcn --use-sage --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.9-c10
+
+
+
+
+###Plain GNN on the mixhop datasets for 10 homophily levels [0.0,0.9]
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.0-c10
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.1-c10
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.2-c10
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.3-c10
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.4-c10
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.5-c10
+
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.6-c10
+
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.7-c10
+
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.8-c10
+
+
+  - python3 ./main.py --enable-gcn  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.9-c10
+
+
+
+
+###MLP on the mixhop datasets for 10 homophily levels [0.0,0.9]
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.0-c10
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.1-c10
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.2-c10
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.3-c10
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.4-c10
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.5-c10
+
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.6-c10
+
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.7-c10
+
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.8-c10
+
+
+  - python3 ./main.py --enable-mlp  --datasets-path ./datasets --dropout 0.1   --hidden-feat-repr-dims 1024 1024 --mixhop-dataset-path ./mixhop_data/ind.n5000-h0.9-c10

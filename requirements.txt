@@ -1,0 +1,13 @@
+dgl == 0.5.2
+
+networkx == 2.5
+
+numpy == 1.19.2
+
+ogb == 1.2.4
+
+scipy == 1.5.2
+
+torch == 1.6.0+cu101
+
+tqdm == 4.49.0

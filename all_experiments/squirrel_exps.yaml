@@ -1,0 +1,24 @@
+
+##MLP model running on Squirrel dataset for random 60/20/20% train/valid/test split. Repeat for 20 seed 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-mlp   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --split-seed 0
+
+##plain GNN model running on Squirrel dataset for random 60/20/20% train/valid/test split. Repeat for 20 seed 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-gcn   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --split-seed 0
+
+
+##GraphSage model running on Squirrel dataset for random 60/20/20% train/valid/test split. Repeat for 20 seed 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-gcn --use-sage   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --split-seed 0
+
+
+##MLP model running on Squirrel dataset for one of the geom-gcn splits. 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-mlp   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --custom-split-file ./geom_gcn_splits/squirrel_split_0.6_0.2_0.npz
+
+##plain GNN model running on Squirrel dataset for one of the geom-gcn splits. 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-gcn   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --custom-split-file ./geom_gcn_splits/squirrel_split_0.6_0.2_0.npz
+
+
+##GraphSage model running on Squirrel dataset for one of the one of the geom-gcn splits 
+  - python3 ./main.py   --dropout 0.6  --hidden-feat-repr-dims 512 512 --make-bidirectional    --enable-gcn --use-sage   --lr 0.005  --dataset squirrel --homogeneous-split     --split-seed 15 --datasets-path ./datasets --custom-split-file ./geom_gcn_splits/squirrel_split_0.6_0.2_0.npz
+
+
+

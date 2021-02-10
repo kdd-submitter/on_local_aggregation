@@ -1,0 +1,1 @@
+These datasets were taken from the code base of the Mixhop paper : https://github.com/samihaija/mixhop/tree/master/data/synthetic
