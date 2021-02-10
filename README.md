@@ -1,9 +1,7 @@
 # on_local_aggregation
 Code for the 2021 KDD submission 'On local aggregation in heterophilic graphs'. The main python executable is `main.py`. Results are saved under a `./runs/` directory created at the invocation directory. An invocation of `main.py` will save various accuracy metrics as well as the model parameters in the file `./runs/{model name}_{job idx}`. Accuracy figures as well as several diagnostics are also printed out. 
 
-For the Cora, Citeseer, and Pubmed benchmarks, the graphs are downloaded automatically by the dgl library. The Actor, Wisconsin, Cornell, and Texas datasets are included in the repository and are located under the /datasets/ folder.
-
-The Actor, Wisconsin, Cornell, Texas, Chameleon, and Squirrel  datasets are included in the repository and are located under the /datasets/ folder. The Mixhop synthetic graphs are included under the ./mixhop_data folder. The geom-gcn splits are included under the ./geom_gcn_splits/ folder.
+For the Cora, Citeseer, and Pubmed benchmarks, the graphs are downloaded automatically by the dgl library. The Actor, Wisconsin, Cornell, Texas, Chameleon, and Squirrel  datasets are included in the repository and are located under the /datasets/ folder. The Mixhop synthetic graphs are included under the ./mixhop_data folder. The geom-gcn splits are included under the ./geom_gcn_splits/ folder.
 
 ### Required Packages
 See requirements.txt for a complete list of required Python packages. Install required packages using the command:
